@@ -1,0 +1,4 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+discovery.seed_hosts: ["10.6.61.74:9300", "10.6.57.195:9300"]
+cluster.initial_master_nodes: ["10.6.61.74:9300", "10.6.57.195:9300"]
